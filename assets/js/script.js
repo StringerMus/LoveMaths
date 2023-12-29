@@ -77,11 +77,24 @@ function calculateCorrectAnswer() {
 
 }
 
+/**
+* Gets the current score from the DOM and increments it by 1
+*/
 function incrementScore() {
+    
+    let oldscore = parseInt(document.getElementById("score".innerText");
+    document.getElementById("score").innerText = ++oldscore;
 
 }
 
+/**
+* Gets the current incorrect score from the DOM and increments it by 1
+*/
+function incrementScore() {
 function incrementWrongAnswer() {
+
+    let oldscore = parseInt(document.getElementById("incorrect".innerText");
+    document.getElementById("incorrect").innerText = ++oldscore;
 
 }
 
